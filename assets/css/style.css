@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css?family=Open+Sans:400,700&display=swap');
+
 :root {
   --primary-color: rgb(17, 86, 102);
   --primary-color-darker: rgb(9, 48, 56);
@@ -26,9 +27,13 @@ body {
   border-radius: 10px;
 }
 
-.resultado {
-  background-color: rgb(210, 233, 208);
-  padding: 10px;
+.resultado-valido, .resultado-invalido {
+  background-color: rgb(178, 233, 173);
+  padding: 10px 10px;
+}
+
+.resultado-invalido {
+  background-color: rgb(231, 135, 135);
 }
 
 form input, form label, form button {
